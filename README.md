@@ -17,4 +17,4 @@ The result should be a sorted list of CIDRs.
 
 ** Limitations of existing tools **
 - ip2cidr requires IP ranges, it only takes two arguments and not a list like: 1.1.1.1 / 1.1.1.2 / 1.1.1.3 etc., you get the point.
-- A few existing online tools allow multiple IP ranges to be pasted, on per line. But this does not help me as I'd still have to feed it a sanitised list, by which time I'm quicker converting it manually.
+- A few existing online tools allow multiple IP ranges to be pasted (http://ip2cidr.com/bulk-ip-to-cidr-converter.php), one per line. But this does not help me as I'd still have to feed it a sanitised list, by which time I'm quicker converting it manually.
